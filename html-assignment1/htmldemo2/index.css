@@ -1,0 +1,35 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(14, 13, 14);
+  }
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #eef8f6c5;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #a09ea0;
+  }
+  
+  tbody tr {
+    background-image: url(noise.png);
+  }
+  
+  table {
+    background-color: #fcf8fb;
+  }
